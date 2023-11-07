@@ -9,6 +9,6 @@ def build_xml_element(tag, content, **attributes):
     return xml_element
 
 
-# Example usage:
+
 result = build_xml_element("a", "Hello there", href="http://python.org", _class="my-link", id="someid")
 print(result)
